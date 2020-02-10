@@ -272,6 +272,7 @@ body {
     right: 35px;
     border: none;
     cursor: pointer;
+    z-index: 1;
   }
   .menu-btn::before {
     content: '';
@@ -313,6 +314,7 @@ body {
   }
   .header-active {
     display: flex;
+    z-index: 99;
   }
   .menu-button-active {
     height: 0;
