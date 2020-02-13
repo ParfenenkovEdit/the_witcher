@@ -272,7 +272,7 @@ body {
     right: 35px;
     border: none;
     cursor: pointer;
-    z-index: 1;
+    z-index: 100;
   }
   .menu-btn::before {
     content: '';
